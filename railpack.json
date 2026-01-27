@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "caches": {
+    "nextjs": {
+      "directory": ".next/cache",
+      "type": "shared"
+    },
+    "npm": {
+      "directory": "/root/.npm",
+      "type": "shared"
+    }
+  },
+  "steps": {
+    "install": {
+      "caches": ["npm"]
+    },
+    "build": {
+      "caches": ["nextjs"]
+    }
+  }
+}
