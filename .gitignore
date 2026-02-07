@@ -33,3 +33,5 @@ yarn-error.log*
 next-env.d.ts
 
 /public/bench.txt
+/public/bench-incremental.txt
+/public/bench-warmup.txt
